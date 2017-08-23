@@ -1,10 +1,10 @@
 ﻿(function () {
     var element = $("#username");
-    element.text = "Desislav Petrov";
+    element.text("Desislav Petrov");
 
     var main = $("#main");
     main.on("mouseenter", function(){
-            main.style = "background-color: #888";
+            main.style = "background-color: #888;";
     });
 
     main.on("mouseleave", function () {
