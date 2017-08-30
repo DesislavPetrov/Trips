@@ -10,9 +10,9 @@
         <img src="~/img/trips-logo.png" alt="site-logo" class="site-logo" />
         <span id="username">Desislav Petrov</span>
         <ul class="menu">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a asp-controller="App" asp-action="Index">Home</a></li>
+            <li><a asp-controller="App" asp-action="About">About</a></li>
+            <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
         </ul>
     </div>
     <div id="wrapper">
@@ -20,7 +20,7 @@
             <div>
                 <button id="sidebarToggle">Toggle Menu</button>
             </div>
-            @RenderBody();
+            @RenderBody()
         </div>
         <div id="footer">
             &copy; 2017 Desislav Petrov
