@@ -59,9 +59,11 @@
 --reference:C:\Users\win\.nuget\packages\Microsoft.DotNet.PlatformAbstractions\1.1.2\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll
 --reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\1.1.2\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll
 --reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.1.2\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
---reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Configuration\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
+--reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Configuration\1.0.1\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
 --reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.1.2\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll
 --reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Configuration.EnvironmentVariables\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+--reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Configuration.FileExtensions\1.0.1\lib\netstandard1.3\Microsoft.Extensions.Configuration.FileExtensions.dll
+--reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.Configuration.Json\1.0.1\lib\netstandard1.3\Microsoft.Extensions.Configuration.Json.dll
 --reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.DependencyInjection\1.1.1\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll
 --reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\1.1.1\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 --reference:C:\Users\win\.nuget\packages\Microsoft.Extensions.DependencyModel\1.1.2\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll
@@ -171,4 +173,6 @@
 D:\GitHub\Trips.git\trunk\Trips\src\Trips\Program.cs
 D:\GitHub\Trips.git\trunk\Trips\src\Trips\Startup.cs
 D:\GitHub\Trips.git\trunk\Trips\src\Trips\Controllers\Web\AppController.cs
+D:\GitHub\Trips.git\trunk\Trips\src\Trips\Services\DebugMailService.cs
+D:\GitHub\Trips.git\trunk\Trips\src\Trips\Services\IMailService.cs
 D:\GitHub\Trips.git\trunk\Trips\src\Trips\ViewModels\ContactViewModel.cs
