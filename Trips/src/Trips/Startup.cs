@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Trips.Services;
 using Microsoft.Extensions.Configuration;
+using Trips.Models;
 
 namespace Trips
 {
@@ -39,6 +40,8 @@ namespace Trips
             {
                 // Implement a real Mail Service
             }
+
+            services.AddDbContext<TripsContext>();
 
             services.AddMvc();
         }
