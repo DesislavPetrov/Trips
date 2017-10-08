@@ -3,6 +3,7 @@
     "ToAddress": "petrov_desislav@abv.bg"
   },
   "ConnectionStrings": {
-    "TripsContextConnection": "Server=(localdb)\\MSSQLLocalDB;Database=TripsDb;Trusted_Connection=true;MultipleActiveResulSets=true"
+    "TripsContextConnection": "Server=(LocalDb)\\MSSQLLocalDB;Database=TripsDb;Trusted_Connection=true;MultipleActiveResultSets=false"
   }
 }
+
